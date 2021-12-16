@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import { createStage, checkCollision } from '../gameHelpers';
 import { StyledTetrisWrapper, StyledTetris } from './styles/StyledTetris';
 
-// Custom Hooks
+
 import { useInterval } from '../hooks/useInterval';
 import { usePlayer } from '../hooks/usePlayer';
 import { useStage } from '../hooks/useStage';
 import { useGameStatus } from '../hooks/useGameStatus';
 
-// Components
+
 import Stage from './Stage';
 import Display from './Display';
 import StartButton from './StartButton';
